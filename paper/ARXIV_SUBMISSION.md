@@ -19,3 +19,13 @@ Account notes:
 - First-time submitters may need endorsement for `cs.LG` or `cs.CV`.
 - If endorsement is requested, start the submission, copy the endorsement request link from arXiv, and send it to one relevant established arXiv author.
 - Upload `scgn_arxiv_source.tar.gz` if the compiled PDF preview matches `main.pdf`.
+
+File upload checklist:
+
+- Upload `paper/scgn_arxiv_source.tar.gz`, not `paper/main.pdf`.
+- Select `PDFLaTeX` if arXiv does not auto-detect it.
+- Top-level TeX file: `main.tex`.
+- Keep `main.bbl`; arXiv needs it for the bibliography.
+- Keep all files under `figures/`; the paper includes them directly.
+- All file names currently use arXiv-safe characters only: `a-z A-Z 0-9 _ + - . , =`.
+- After arXiv compiles the source, open the generated preview PDF and compare it with `paper/main.pdf`.
