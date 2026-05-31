@@ -4,6 +4,12 @@
 
 ![MNIST Results](samples_step_50000.png)
 
+## Preliminary Technical Report
+An arXiv-ready preliminary technical report is included in this repository:
+
+- [paper/main.pdf](paper/main.pdf)
+- [paper/scgn_arxiv_source.tar.gz](paper/scgn_arxiv_source.tar.gz)
+
 ## Overview
 Current generative models (GANs, Diffusion, Flow Matching) rely heavily on adversarial networks, computationally expensive multi-step ODE/SDE solvers, or discrete Optimal Transport algorithms (like Sinkhorn). 
 
