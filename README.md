@@ -1,6 +1,6 @@
 # SCGN: Spherical Chamfer Generative Networks
 
-**A 1-Step, Non-Adversarial, Class-Conditional Generative Model based on Joint Hypersphere Topology.**
+**A 1-Step, Non-Adversarial, Continuous Text-Conditional Generative Model based on Joint Hypersphere Topology.**
 
 ![MNIST Results](samples_step_50000.png)
 
